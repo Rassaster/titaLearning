@@ -93,6 +93,61 @@ body {
   height: 45.138889vw;
 }
 
+.flow_circle {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #aac1cd;
+  overflow: hidden;
+}
+
+.flow_circle h2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  color: #aac1cd;
+  z-index: 10;
+}
+
+.flow_circle:hover .circleOverylay_ctn {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  opacity: 0.6;
+  -webkit-transition: -webkit-filter 0.5s linear;
+  transition: -webkit-filter 0.5s linear;
+  transition: filter 0.5s linear;
+  transition: filter 0.5s linear, -webkit-filter 0.5s linear;
+}
+
+.flow_circle:hover h2 {
+  font-size: 24px;
+  color: #6bc8fa;
+  -webkit-transition: font-size 0.2s linear;
+  transition: font-size 0.2s linear;
+}
+
+.circleOverylay_ctn {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/overlays/eCommerceOverlay.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: opacity(30%);
+          filter: opacity(30%);
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
 .titaMedia-ctn {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -131,5 +186,11 @@ body {
 .titaMedia-ctn h3 {
   font-size: calc(22px + 0.013888889vw);
   margin-bottom: 1%;
+}
+
+.eCommerce-ctn {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
 }
 /*# sourceMappingURL=style.css.map */
