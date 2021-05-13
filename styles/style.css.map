@@ -5,7 +5,13 @@
         "style.scss",
         "1-base/_1-reset.scss",
         "1-base/_2-mixins.scss",
-        "1-base/_3-global.scss"
+        "1-base/_3-global.scss",
+        "2-sections/_1-titaMediaCenter.scss",
+        "2-sections/_2-eCommerce.scss",
+        "2-sections/_3-uxUI.scss",
+        "2-sections/_4-paidMedia.scss",
+        "2-sections/_5-projects.scss",
+        "2-sections/_6-titaLearning.scss"
     ],
     "names": [],
     "file": "style.css"
