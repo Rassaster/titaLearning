@@ -1,0 +1,5 @@
+@mixin flexContainerConfig($direction, $wrap, $justify, $aligni) {
+  flex-flow: $direction $wrap;
+  justify-content: $justify;
+  align-items: $aligni;
+}

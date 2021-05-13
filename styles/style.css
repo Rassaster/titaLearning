@@ -34,4 +34,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 0;
+  scroll-behavior: smooth;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  background-position: center;
+  background-size: cover;
+  background-color: unset;
+  background-repeat: no-repeat;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #041117;
+}
+
+.flex_ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
