@@ -66,4 +66,24 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.visibility_hidden {
+  visibility: hidden;
+}
+
+.visibility_visible {
+  visibility: visible;
+}
+
+.display_none {
+  display: none;
+}
+
+.display_block {
+  display: block;
+}
+
+.display_inline {
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
