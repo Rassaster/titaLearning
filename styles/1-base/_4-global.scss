@@ -18,6 +18,8 @@
 }
 body {
   background-color: #041117;
+  font-family: "Be Vietnam";
+  color :#aac1cd;
 }
 // ***************
 // Global Classes:
@@ -39,4 +41,8 @@ body {
 }
 .display_inline{
   display: inline;
+}
+
+.main-ctn {
+  height: 45.138889vw; // = 650px / 1440px
 }

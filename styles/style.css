@@ -59,6 +59,8 @@ table {
 
 body {
   background-color: #041117;
+  font-family: "Be Vietnam";
+  color: #aac1cd;
 }
 
 .flex_ctn {
@@ -85,5 +87,42 @@ body {
 
 .display_inline {
   display: inline;
+}
+
+.main-ctn {
+  height: 45.138889vw;
+}
+
+.titaMedia-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.titaMedia-ctn img {
+  height: 2.7777778vw;
+}
+
+.titaMedia-ctn h2 {
+  font-size: 32px;
+}
+
+.titaMedia-ctn h3 {
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+// @include flexContainerConfig($direction, $wrap, $justify, $aligni)
+.titaMedia-ctn {
+  @include flexContainerConfig(column, nowrap, center, center);
+  width: 50%;
+  height: max-content;
+  margin: 0 auto;
+  align-self: center;
+  img {
+    height: 2.7777778vw; // = 40px / 1440px
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
