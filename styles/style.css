@@ -153,7 +153,7 @@ body {
   background-position: center;
   -webkit-filter: blur(4px);
           filter: blur(4px);
-  opacity: 0.2;
+  opacity: 0.1;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
@@ -174,13 +174,13 @@ body {
 .flow_circle:hover .circleOverylay_ctn {
   -webkit-filter: blur(0);
           filter: blur(0);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .flow_circle:hover h2 {
   font-size: calc(24px + 0.013888889vw);
   color: #6bc8fa;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 1%;
 }
 
@@ -393,7 +393,7 @@ body {
 }
 
 .eCommerce-overlay {
-  background-image: url("assets/overlays/eCommerceOverlay.png");
+  background-image: url("../assets/overlays/eCommerceOverlay.png");
 }
 
 .eCommerceContent-ctn {
@@ -425,7 +425,7 @@ body {
 }
 
 .uxui-overlay {
-  background-image: url("assets/overlays/uxuiOverlay.png");
+  background-image: url("../assets/overlays/uxuiOverlay.png");
 }
 
 .uxuiContent-ctn {
@@ -462,7 +462,7 @@ body {
 }
 
 .paidMedia-overlay {
-  background-image: url("assets/overlays/paidMediaOverlay.png");
+  background-image: url("../assets/overlays/paidMediaOverlay.png");
 }
 
 .paidMediaContent-ctn {
@@ -502,7 +502,7 @@ body {
 }
 
 .titaProjects-overlay {
-  background-image: url("assets/overlays/projectsOverlay.png");
+  background-image: url("../assets/overlays/projectsOverlay.png");
 }
 
 .titaProjectsContent-ctn {
@@ -560,7 +560,7 @@ body {
 }
 
 .titaLearning-overlay {
-  background-image: url("/assets/overlays/learningOverlay.png");
+  background-image: url("../assets/overlays/learningOverlay.png");
 }
 
 .titaLearningContent-ctn {
