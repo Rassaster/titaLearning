@@ -4,7 +4,7 @@
   right: 5.5555556vw; // = 80px / 1440px
 }
 .paidMedia-overlay {
-  background-image: url(../../assets/overlays/paidMediaOverlay.png);
+  background-image: url(../assets/overlays/paidMediaOverlay.png);
 }
 .paidMediaContent-ctn {
   @include flexContainerConfig(column, nowrap, top, center);

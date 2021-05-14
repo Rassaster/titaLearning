@@ -393,7 +393,7 @@ body {
 }
 
 .eCommerce-overlay {
-  background-image: url("../../assets/overlays/eCommerceOverlay.png");
+  background-image: url("../assets/overlays/eCommerceOverlay.png");
 }
 
 .eCommerceContent-ctn {
@@ -425,7 +425,7 @@ body {
 }
 
 .uxui-overlay {
-  background-image: url("../../assets/overlays/uxuiOverlay.png");
+  background-image: url("../assets/overlays/uxuiOverlay.png");
 }
 
 .uxuiContent-ctn {
@@ -462,7 +462,7 @@ body {
 }
 
 .paidMedia-overlay {
-  background-image: url(../../assets/overlays/paidMediaOverlay.png);
+  background-image: url(../assets/overlays/paidMediaOverlay.png);
 }
 
 .paidMediaContent-ctn {
