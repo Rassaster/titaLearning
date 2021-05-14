@@ -560,7 +560,7 @@ body {
 }
 
 .titaLearning-overlay {
-  background-image: url("../../assets/overlays/learningOverlay.png");
+  background-image: url(../../assets/overlays/learningOverlay.png);
 }
 
 .titaLearningContent-ctn {
