@@ -11,6 +11,8 @@
   border-top: 0.20833333vw double $secondC; // = 3px / 1440px
   border-right: 0.20833333vw solid $thirdC; // = 3px / 1440px
   border-bottom: 0.20833333vw double $fourthC; // = 3px / 1440px
+  transition: height 0.4s, width 0.4s;
+  overflow: hidden;
   h3 {
     font-size: 34px;
     font-weight: bold;
@@ -58,4 +60,27 @@
   h4 {
     margin: 0 1%;
   }
+}
+.closeBtn-style {
+  position: absolute;
+  top: 4vw;
+  right: 8vw;
+  width: 68px;
+  height: 20px;
+  // border: 2px solid $secondC;
+  color: $mainC;
+  font-weight: bolder;
+  z-index: 200;
+  overflow: hidden;
+  transition: height 0.1s linear 0.3s, width 0.1s linear 0.3s;
+  &:hover {
+    color: $mainCB;
+    background-color: $mainC;
+    cursor: pointer;
+  }
+}
+.fullScreenOverlay_zero {
+  width: 0vw;
+  height: 0%;
+  border: none;
 }

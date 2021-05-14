@@ -13,9 +13,10 @@
 </head>
 <body>
   <!-- General Container -->
-  <div class="main-ctn flex_ctn">
+  <div id="mainCont" class="main-ctn flex_ctn">
+    <button id="closeBtn" class="closeBtn-style fullScreenOverlay_zero">Close X</button>
     <!-- eCommerce Content Fullscreen Overlay -->
-    <div class="eCommerceContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed display_none">
+    <div id="eCommerceContent" class="eCommerceContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed fullScreenOverlay_zero">
       <div class="pyramid-ctn flex_ctn">
         <h3>eCommerce</h3>
         <h4>B2B - B2C - Marketplace</h4>
@@ -46,7 +47,7 @@
     </div>
 
     <!-- UX/UI Content Fullscreen Overaly -->
-    <div class="uxuiContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed display_none">
+    <div id="uxuiContent" class="uxuiContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed fullScreenOverlay_zero">
       <div class="borderEffect"></div>
       <div class="pyramid-ctn flex_ctn">  
         <h3>UX/UI Design</h3>
@@ -75,7 +76,7 @@
     </div>
 
     <!-- Paid Media Content Fullscreen Overlay -->
-    <div class="paidMediaContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed display_none">
+    <div id="paidMediaContent" class="paidMediaContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed fullScreenOverlay_zero">
       <div class="pyramid-ctn flex_ctn">
         <h3>Paid Media</h3>  
       </div>
@@ -90,22 +91,28 @@
     </div>
 
     <!-- Projects Content Fullscreen Overlay -->
-    <div class="titaProjectsContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed display_none">
+    <div id="projectsContent" class="titaProjectsContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed fullScreenOverlay_zero">
       <div class="pyramid-ctn flex_ctn">
         <h3>Tita Media's Projects</h3>
       </div>
       <!-- Projects Container -->
       <div class="projects-ctn flex_ctn">
+        <a href="https://www.panamericana.com.co/" target="_blank" rel="noreferrer">
+          <img src="/assets/logos/panamericanaLogo.jpeg" alt="Carvajal Logo">
+        </a>
+        <a href="https://www.mariohernandez.com.co/" target="_blank" rel="noreferrer">
+          <img src="/assets/logos/mhLogo.png" alt="Carvajal Logo">
+        </a>
         <a href="https://www.tiendanorma.com/norma/" target="_blank" rel="noreferrer">
           <img src="/assets/logos/carvajalLogo.png" alt="Carvajal Logo">
         </a>
-        <iframe src="https://www.mariohernandez.com.co/"></iframe>
-        <iframe src="https://www.panamericana.com.co/"></iframe>
+        <!-- <iframe src="https://www.mariohernandez.com.co/"></iframe> -->
+        <!-- <iframe src="https://www.panamericana.com.co/"></iframe> -->
       </div>
     </div>
 
-    <!-- Tita Learning Fullscreen Overlay -->
-    <div class="titaLearningContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed ">
+    <!-- Tita Learning Content Fullscreen Overlay -->
+    <div id="titaLearningContent" class="titaLearningContent-ctn fullScreenOverlay_ctn flex_ctn position_fixed fullScreenOverlay_zero">
       <div class="pyramid-ctn flex_ctn">
         <h3>Tita Learning</h3>
       </div>
@@ -117,7 +124,7 @@
       </div>
     </div>
 
-    <!-- Tita Media Center Circle -->
+    <!-- Tita Media Center -->
     <div class="titaMedia-ctn flex_ctn">
       <img src="./assets/logos/titaMediaLogo.png" alt="Tita Media Logo">
       <h2>Digital Comerce</h2>
@@ -125,7 +132,7 @@
     </div>
 
     <!-- eCommerce Lower Left Circle-->
-    <div class="eCommerce-ctn flow_circle flex_ctn position_absolute">
+    <div id="eCommerceCircle" class="eCommerce-ctn flow_circle flex_ctn position_absolute">
       <h2>eCommerce</h2>  
       <!-- eCommerce Circle Overlay -->
       <div class="borderEffect"></div>
@@ -133,7 +140,7 @@
     </div>
 
     <!-- UX/UI Lower Center Circle-->
-    <div class="uxui-ctn flow_circle flex_ctn position_absolute">
+    <div id="uxuiCircle" class="uxui-ctn flow_circle flex_ctn position_absolute">
       <h2>UX/UI Design</h2>
       <!-- UX/UI Circle Overlay -->
       <div class="borderEffect"></div>
@@ -141,7 +148,7 @@
     </div>
 
     <!-- Paid Media Lower Right Circle-->
-    <div class="paidMedia-ctn flow_circle flex_ctn position_absolute">
+    <div id="paidMediaCircle" class="paidMedia-ctn flow_circle flex_ctn position_absolute">
       <h2>Paid Media</h2>
       <!-- Paid Media Circle Overlay -->
       <div class="borderEffect"></div>
@@ -149,7 +156,7 @@
     </div>
     
     <!-- Projects Upper Left Circle-->
-    <div class="titaProjects-ctn flow_circle flex_ctn position_absolute">
+    <div id="projectsCircle" class="titaProjects-ctn flow_circle flex_ctn position_absolute">
       <h2>Projects</h2> 
       <!-- Tita Projects Circle Overlay -->
       <div class="borderEffect"></div>
@@ -157,12 +164,13 @@
     </div>
     
     <!-- Tita Learning Upper Right Circle-->
-    <div class="flow_circle titaLearning-ctn flex_ctn position_absolute">
+    <div id="titaLearningCircle" class="flow_circle titaLearning-ctn flex_ctn position_absolute">
       <h2>Tita Learning</h2>
       <!-- Tita Learning Circle Overlay -->
       <div class="borderEffect"></div>
       <div class="titaLearning-overlay circleOverylay_ctn flex_ctn"></div>
     </div>
   </div>
+  <script src="/script.js"></script>
 </body>
 </html>

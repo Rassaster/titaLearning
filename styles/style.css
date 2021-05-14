@@ -159,6 +159,7 @@ body {
 }
 
 .flow_circle:hover {
+  cursor: pointer;
   width: 12.5vw;
   height: 12.5vw;
 }
@@ -217,6 +218,9 @@ body {
   border-top: 0.20833vw double #aac1cd;
   border-right: 0.20833vw solid #6bc8fa;
   border-bottom: 0.20833vw double #6b88fa;
+  -webkit-transition: height 0.4s, width 0.4s;
+  transition: height 0.4s, width 0.4s;
+  overflow: hidden;
 }
 
 .fullScreenOverlay_ctn h3 {
@@ -303,6 +307,32 @@ body {
 
 .solutions-ctn h4 {
   margin: 0 1%;
+}
+
+.closeBtn-style {
+  position: absolute;
+  top: 4vw;
+  right: 8vw;
+  width: 68px;
+  height: 20px;
+  color: #aac1cd;
+  font-weight: bolder;
+  z-index: 200;
+  overflow: hidden;
+  -webkit-transition: height 0.1s linear 0.3s, width 0.1s linear 0.3s;
+  transition: height 0.1s linear 0.3s, width 0.1s linear 0.3s;
+}
+
+.closeBtn-style:hover {
+  color: #00a6ff;
+  background-color: #aac1cd;
+  cursor: pointer;
+}
+
+.fullScreenOverlay_zero {
+  width: 0vw;
+  height: 0%;
+  border: none;
 }
 
 .titaMedia-ctn {
