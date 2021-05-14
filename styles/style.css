@@ -180,6 +180,8 @@ body {
 .flow_circle:hover h2 {
   font-size: calc(24px + 0.013888889vw);
   color: #6bc8fa;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1%;
 }
 
 @-webkit-keyframes borderEffect {
@@ -213,7 +215,7 @@ body {
   height: 90%;
   z-index: 100;
   background-color: rgba(10, 23, 55, 0.98);
-  color: #e0e7eb;
+  color: #d8e3e9;
   border-left: 0.20833vw solid #aac1cd;
   border-top: 0.20833vw double #aac1cd;
   border-right: 0.20833vw solid #6bc8fa;

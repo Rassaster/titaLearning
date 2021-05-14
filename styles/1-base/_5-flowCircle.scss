@@ -52,6 +52,8 @@
     h2 {
       font-size: calc(24px + 0.013888889vw); // 24px + (2px / 1440px)
       color: $thirdC;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 1%;
     }
   } 
 }
