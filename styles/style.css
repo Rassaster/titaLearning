@@ -502,7 +502,7 @@ body {
 }
 
 .titaProjects-overlay {
-  background-image: url("../../assets/overlays/projectsOverlay.png");
+  background-image: url("../assets/overlays/projectsOverlay.png");
 }
 
 .titaProjectsContent-ctn {
