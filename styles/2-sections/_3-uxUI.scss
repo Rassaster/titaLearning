@@ -1,0 +1,7 @@
+.uxui-ctn {
+  bottom: 7.6388889vw; // 100px / 1440px
+  left: calc(50vw - 5.5555555vw); // = (1220px / 1440px) - ((160px / 1440px) / 2)
+}
+.uxui-overlay {
+  background-image: url("/assets/overlays/uxuiOverlay.png");
+}
