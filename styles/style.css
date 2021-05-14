@@ -93,6 +93,10 @@ body {
   position: absolute;
 }
 
+.position_fixed {
+  position: fixed;
+}
+
 .main-ctn {
   height: 45.138889vw;
 }
@@ -199,6 +203,108 @@ body {
   }
 }
 
+.fullScreenOverlay_ctn {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  z-index: 100;
+  background-color: rgba(10, 23, 55, 0.98);
+  color: #e0e7eb;
+  border-left: 0.20833vw solid #aac1cd;
+  border-top: 0.20833vw double #aac1cd;
+  border-right: 0.20833vw solid #6bc8fa;
+  border-bottom: 0.20833vw double #6b88fa;
+}
+
+.fullScreenOverlay_ctn h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.fullScreenOverlay_ctn h4 {
+  color: #aac1cd;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pyramid-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+          clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+  width: 90%;
+  margin-top: 2%;
+  padding: 1%;
+  background-color: rgba(141, 139, 153, 0.583);
+}
+
+.pilars-wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  background-color: rgba(118, 103, 82, 0.583);
+}
+
+.pilars-wrapper .pilar-ctn {
+  border: 2px solid #161437;
+  width: 15%;
+  height: 100%;
+  margin: 0 5%;
+  -webkit-box-shadow: 16px 4px 9px -1px rgba(24, 43, 63, 0.65);
+          box-shadow: 16px 4px 9px -1px rgba(24, 43, 63, 0.65);
+  background-color: rgba(22, 20, 55, 0.652);
+  overflow: scroll;
+}
+
+.pilars-wrapper .pilar-ctn h4 {
+  width: 100%;
+  -webkit-transform: rotate(270deg) translate(-100%, -20%);
+          transform: rotate(270deg) translate(-100%, -20%);
+  text-orientation: mixed;
+  text-align: center;
+}
+
+.solutions-ctn {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  height: 25%;
+  background-color: rgba(82, 118, 85, 0.583);
+  -webkit-clip-path: polygon(100% 0, 100% 90%, 49% 100%, 0 90%, 0 0);
+          clip-path: polygon(100% 0, 100% 90%, 49% 100%, 0 90%, 0 0);
+}
+
+.solutions-ctn h4 {
+  margin: 0 1%;
+}
+
 .titaMedia-ctn {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -240,6 +346,16 @@ body {
 }
 
 .eCommerce-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 7.6388889vw;
   left: 5.5555556vw;
 }
@@ -248,7 +364,30 @@ body {
   background-image: url("/assets/overlays/eCommerceOverlay.png");
 }
 
+.eCommerceContent-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .uxui-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 7.6388889vw;
   left: calc(50vw - 5.5555555vw);
 }
@@ -257,7 +396,35 @@ body {
   background-image: url("/assets/overlays/uxuiOverlay.png");
 }
 
+.uxuiContent-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uxuiContent-ctn .pilar-ctn h4 {
+  -webkit-transform: rotate(270deg) translate(-220%, -20%);
+          transform: rotate(270deg) translate(-220%, -20%);
+}
+
 .paidMedia-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   bottom: 7.6388889vw;
   right: 5.5555556vw;
 }
@@ -266,7 +433,38 @@ body {
   background-image: url("/assets/overlays/paidMediaOverlay.png");
 }
 
+.paidMediaContent-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paidMediaContent-ctn .pyramid-ctn {
+  margin-top: 15%;
+}
+
+.paidMediaContent-ctn .solutions-ctn {
+  height: 35%;
+}
+
 .titaProjects-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 7.6388889vw;
   left: 5.5555556vw;
 }
@@ -275,12 +473,88 @@ body {
   background-image: url("/assets/overlays/projectsOverlay.png");
 }
 
+.titaProjectsContent-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titaProjectsContent-ctn .projects-ctn {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+.titaProjectsContent-ctn .projects-ctn a, .titaProjectsContent-ctn .projects-ctn iframe {
+  margin-left: 1%;
+  width: 35%;
+  height: 35%;
+}
+
+.titaProjectsContent-ctn .projects-ctn a img {
+  width: 100%;
+  height: 100%;
+}
+
 .titaLearning-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 7.6388889vw;
   right: 5.5555556vw;
 }
 
 .titaLearning-overlay {
   background-image: url("/assets/overlays/learningOverlay.png");
+}
+
+.titaLearningContent-ctn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titaLearningContent-ctn .pyramid-ctn {
+  margin-top: 10%;
+}
+
+.titaLearningContent-ctn .skills-ctn {
+  -webkit-filter: sepia(40%);
+          filter: sepia(40%);
+}
+
+.titaLearningContent-ctn .skills-ctn img {
+  width: 80%;
+  height: 80%;
 }
 /*# sourceMappingURL=style.css.map */

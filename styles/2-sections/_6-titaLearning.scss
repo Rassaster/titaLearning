@@ -1,7 +1,21 @@
 .titaLearning-ctn {
+  @include flexContainerConfig(column, nowrap, center, center);
   top: 7.6388889vw; // 100px / 1440px
   right: 5.5555556vw; // = 80px / 1440px
 }
 .titaLearning-overlay {
   background-image: url("/assets/overlays/learningOverlay.png");
+}
+.titaLearningContent-ctn {
+  @include flexContainerConfig(column, nowrap, top, center);
+  .pyramid-ctn {
+    margin-top: 10%;
+  }
+  .skills-ctn {
+    filter: sepia(40%);
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
 }

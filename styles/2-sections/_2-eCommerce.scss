@@ -1,7 +1,12 @@
 .eCommerce-ctn {
+  @include flexContainerConfig(column, nowrap, center, center);
   bottom: 7.6388889vw; // 100px / 1440px
   left: 5.5555556vw; // = 80px / 1440px
 }
 .eCommerce-overlay {
   background-image: url("/assets/overlays/eCommerceOverlay.png");
+}
+
+.eCommerceContent-ctn {
+  @include flexContainerConfig(column, nowrap, top, center);
 }
