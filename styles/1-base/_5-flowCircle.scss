@@ -1,5 +1,3 @@
-
-
 .flow_circle {
   @include flexContainerConfig(column, nowrap, center, center);
   width: 11.111111vw; // = 160px / 1440px
@@ -8,6 +6,7 @@
   overflow: hidden;
   transition: 0.4s ease-in-out;
   .borderEffect {
+    margin: 3%;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -48,7 +47,7 @@
     }
     .circleOverylay_ctn {
       filter: blur(0);
-      opacity: 0.6;
+      opacity: 0.8;
     }
     h2 {
       font-size: calc(24px + 0.013888889vw); // 24px + (2px / 1440px)
