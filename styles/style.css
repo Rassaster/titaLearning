@@ -392,10 +392,6 @@ body {
   left: 5.5555556vw;
 }
 
-.eCommerce-overlay {
-  background-image: url("../assets/overlays/eCommerceOverlay.png");
-}
-
 .eCommerceContent-ctn {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -422,10 +418,6 @@ body {
           align-items: center;
   bottom: 7.6388889vw;
   left: calc(50vw - 5.5555555vw);
-}
-
-.uxui-overlay {
-  background-image: url("../assets/overlays/uxuiOverlay.png");
 }
 
 .uxuiContent-ctn {
@@ -459,10 +451,6 @@ body {
           align-items: center;
   bottom: 7.6388889vw;
   right: 5.5555556vw;
-}
-
-.paidMedia-overlay {
-  background-image: url(../assets/overlays/paidMediaOverlay.png);
 }
 
 .paidMediaContent-ctn {
