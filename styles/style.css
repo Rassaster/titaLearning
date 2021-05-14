@@ -462,7 +462,7 @@ body {
 }
 
 .paidMedia-overlay {
-  background-image: url("../../assets/overlays/paidMediaOverlay.png");
+  background-image: url(../../assets/overlays/paidMediaOverlay.png);
 }
 
 .paidMediaContent-ctn {
